@@ -1,0 +1,77 @@
+
+.building{
+    background-color: lightblue;
+    height: 650px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: end; */
+    gap: 20px;
+}
+.lift{
+    height: 100px;
+    width: 75px;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    bottom: 110px;
+    left: 200px;
+
+}
+.floor1 p{
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+.floor1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+
+}
+.btn{
+    gap: 30px;
+    display: flex;
+}
+.up{
+    height: 30px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+}
+.Down{
+    height: 30px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+}
+.leftdoor {
+    width: 37.5px;
+    height: 100px;
+    background-color: grey;
+    border-radius: 0px 10px 10px 0px;
+    transition: width 1s;
+  }
+.rightdoor{
+    width: 37.5px;
+    height: 100px;
+    background-color: grey;
+    transition: width 1s;
+    border-radius: 10px 0 0 10px;
+  }
